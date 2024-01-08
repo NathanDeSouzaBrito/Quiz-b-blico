@@ -135,10 +135,35 @@ const questions = [
   {
     question: "Quantos livros tem a Biblia?",
     answers: [
-        { text: "66 livros", correct: true},
-        { text: "65 livros", correct: false},
-        { text: "74 livros", correct: false},
-        { text: "76 livros", correct: false},
-    ]
-  }
-]
+      { text: "66 livros", correct: true },
+      { text: "65 livros", correct: false },
+      { text: "74 livros", correct: false },
+      { text: "76 livros", correct: false },
+    ],
+  },
+  {
+    question: "Qual era o NOME do fruto proibido que Adão e eva comeram?",
+    answers: [
+      { text: "Maça", correct: false },
+      { text: "Goiaba", correct: false },
+      { text: "Não tinha nome", correct: true },
+      { text: "Pera", correct: false },
+    ],
+  },
+  {
+    question: "Quais desses livros estão na Bíblia?",
+    answers: [
+        { text: "Davi", correct: false },
+        { text: "José", correct: false },
+        { text: "Sansão", correct: false },
+        { text: "Tito", correct: true },
+    ],
+  },
+  {
+    question: "O livro de Judas esta no novo ou velho testamento?",
+    answers: [
+      { text: "Novo testamento", correct: true },
+      { text: "Velho testamento", correct: false },
+    ],
+  },
+];
